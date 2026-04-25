@@ -1,1 +1,0 @@
-openrouter_api="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"
