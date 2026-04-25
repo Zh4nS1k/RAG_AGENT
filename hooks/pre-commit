@@ -1,0 +1,11 @@
+#!/bin/bash
+# Pre-commit hook для базовой проверки синтаксиса
+echo "Running pre-commit checks..."
+python3 -m py_compile *.py
+if [ $? -eq 0 ]; then
+    echo "Check passed."
+    exit 0
+else
+    echo "Check failed. Please fix syntax errors."
+    exit 1
+fi

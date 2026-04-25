@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+beautifulsoup4
+requests
+urllib3
+sqlalchemy
+psycopg2-binary
+python-dotenv
