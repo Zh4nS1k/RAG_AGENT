@@ -1,11 +1,35 @@
-__pycache__/
+# Python
+**/__pycache__/
 *.py[cod]
 *$py.class
-.env
 venv/
+.venv/
 ENV/
-chroma_db/
-chroma_db_v3/
+*.log
+
+# Databases & Vector Stores
+**/chroma_db/
+**/chroma_db_v3/
+**/chroma_db_v4/
+**/logs/
+**/postgres_data/
+
+# IDEs
 .idea/
 .vscode/
-*.log
+
+# Environment
+.env
+
+# Frontend
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/dist/
+.next/
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
